@@ -1,7 +1,7 @@
 <?php
 
 $token = "614983231:AAFr-IYreAkrKyFczPK00XAa4mzJGNoTZPI";
-$url = "https://api.telegram.org/";
+$url = "https://api.telegram.org/bot";
 $chat_id = 727792637;
 $phone_number = '+79502901932';
 $first_name = 't';
