@@ -10,10 +10,12 @@ $me = $MadelineProto->get_self();
 \danog\MadelineProto\Logger::log($me);
 
 if (!$me['bot']) {
+//    'peer' => "@Fogmart",
     $MadelineProto->messages->sendMessage([
-        'peer' => "@Fogmart",
-        'message' => "test123"
+        'peer' => "727792637",
+        'message' => "test - test"
     ]);
-
 }
+
+
 echo 'OK, done!'.PHP_EOL;
