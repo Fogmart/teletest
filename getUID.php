@@ -1,6 +1,5 @@
 <?php
 
-$data_string = "tt=54";
 $token = "614983231:AAFr-IYreAkrKyFczPK00XAa4mzJGNoTZPI";
 $url = "https://api.telegram.org/";
 $chat_id = 727792637;
@@ -11,6 +10,8 @@ $tUrl = $url.$token.'/sendContact?';
 $tUrl .= 'chat_id='.$chat_id;
 $tUrl .= '&phone_number='.$phone_number;
 $tUrl .= '&first_name='.$first_name;
+echo $tUrl;
+echo '<br>';
 
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $tUrl);
