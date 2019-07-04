@@ -18,4 +18,8 @@ curl_setopt($curl, CURLOPT_URL, $tUrl);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 $answer = curl_exec($curl);
 
-echo $answer;
+$answer = json_decode($answer);
+
+echo $answer->result;
+
+//echo $answer;
