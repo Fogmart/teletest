@@ -12,7 +12,7 @@ $me = $MadelineProto->get_self();
 if (!$me['bot']) {
     $MadelineProto->messages->sendMessage([
         'peer' => "@Fogmart",
-        'message' => "test"
+        'message' => "test123"
     ]);
 
 }
