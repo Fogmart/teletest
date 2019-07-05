@@ -14,7 +14,7 @@ $phone_number = $_GET["PN"];
 echo $phone_number;
 
 if (isset($phone_number)){
-    $uid = getUID('+79502901932');
+    $uid = getUID($phone_number);
     if ($uid == null){
         echo "Неправильный номер";
         exit;
