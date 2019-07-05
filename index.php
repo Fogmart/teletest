@@ -10,7 +10,7 @@ $me = $MadelineProto->start();
 $me = $MadelineProto->get_self();
 
 \danog\MadelineProto\Logger::log($me);
-$phone_number = $_GET("PN");
+$phone_number = $_GET["PN"];
 echo $phone_number;
 
 if isset($phone_number){
