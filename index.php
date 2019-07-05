@@ -13,7 +13,7 @@ $me = $MadelineProto->get_self();
 $phone_number = $_GET["PN"];
 echo $phone_number;
 
-if isset($phone_number){
+if (isset($phone_number)){
     $uid = getUID('+79502901932');
     if ($uid == null){
         echo "Неправильный номер";
@@ -25,7 +25,7 @@ if isset($phone_number){
     ]);
     echo 'OK, done!';
 } else {
-    echo "Введите номер телефона!"
+    echo "Введите номер телефона!";
 }
 
 
